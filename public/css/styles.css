@@ -1,7 +1,3 @@
-@import "./_home.css";
-@import "./_signUp.css";
-@import "./_login.css";
-
 /* base styles */
 body {
   background-color: white;
@@ -24,5 +20,50 @@ body {
 
 /* button styles*/
 .btn-custom {
+  border-radius: 50px;
+}
+
+/* home page styles */
+.home {
+  height: 100vh;
+}
+.card {
+  background-color: #f5f6fa;
+  height: 400px;
+}
+.logo {
+  background-color: #17a2b8;
+  color: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 1px 10px;
+}
+
+/* login page styles */
+.login {
+  height: 100vh;
+}
+
+/* signup page styles */
+.signUp {
+  height: 100vh;
+}
+
+/* submit page styles */
+.submit {
+  height: 100vh;
+}
+
+/* secrets page styles */
+.secrets {
+  height: 100vh;
+}
+.secrets h1 {
+  font-size: 2vmax;
+}
+.secrets-text {
+  font-size: 1.3vmax;
+  background-color: lightskyblue;
+  color: white;
   border-radius: 50px;
 }
