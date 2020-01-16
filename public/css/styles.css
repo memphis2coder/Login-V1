@@ -1,0 +1,28 @@
+@import "./_home.css";
+@import "./_signUp.css";
+@import "./_login.css";
+
+/* base styles */
+body {
+  background-color: white;
+}
+
+/* go back arrow */
+.back {
+  display: block;
+  text-align: left;
+  color: black;
+}
+.back:hover {
+  text-decoration: none;
+}
+
+/* card */
+.card {
+  border-radius: 25px;
+}
+
+/* button styles*/
+.btn-custom {
+  border-radius: 50px;
+}

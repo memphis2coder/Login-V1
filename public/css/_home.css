@@ -1,0 +1,16 @@
+.home {
+  height: 100vh;
+}
+
+.card {
+  background-color: #f5f6fa;
+  height: 400px;
+}
+
+.logo {
+  background-color: #17a2b8;
+  color: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 1px 10px;
+}
